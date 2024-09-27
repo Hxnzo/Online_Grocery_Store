@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Estonia&display=swap');
+
+.hero-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url('../../images/hero.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    box-shadow:  inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+    justify-content:center;
+    background-attachment: fixed;
+    
+}
+.hero-container h1{
+    font-size:60px;
+    font-family: 'Estonia', cursive;
+    color: rgba(194,232,240,1);
+}
+
+.hero-container h2{
+    font-size:20px;
+    font-family: 'Abhaya Libre', serif;
+    font-family: 'Bebas Neue', cursive;
+    color: rgba(194,232,240,1);
+    padding-bottom: 10px;
+}
+.hero-container h3{
+    transform: translateY(-300%);
+    padding-bottom: 10px;
+}
+
+.hero-btns{
+    text-align: center;
+}

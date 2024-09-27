@@ -1,0 +1,44 @@
+
+.title{
+    margin-top: 20px;
+    font-size:70px;
+    font-family: 'Estonia', cursive;
+    color: rgb(33, 29, 87);
+}
+.swiper-container{
+    height:70vh;
+    z-index: 0 !important;
+}
+
+.drink-swiper-container{
+    background: rgb(247, 242, 242);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

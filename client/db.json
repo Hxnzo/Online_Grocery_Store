@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "sdsada",
+      "password": "sadsadsa",
+      "email": "dsads@gmadsa.cpm",
+      "id": 1
+    },
+    {
+      "username": "mama",
+      "password": "mia",
+      "email": "hey@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "mali",
+      "password": "poop",
+      "email": "ziyadk0212@gmail.com",
+      "id": 3
+    }
+  ]
+}

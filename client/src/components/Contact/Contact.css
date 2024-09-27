@@ -1,0 +1,109 @@
+.form-container{
+    background-color: #ebe1ec;
+}
+.contactUs{
+    text-align: center;
+    color: #4066E0;
+    font-size:72px;
+    font-family: 'Abhaya Libre', serif;
+    padding-top: 30px;
+    color: rgb(63, 63, 129);
+}
+
+.dissappear{
+    color: #ebe1ec;
+
+}
+
+.questions{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding:10px;
+}
+
+
+.contact-form
+{
+    padding:25px;
+    float: right;
+    width: 43%;
+    border-radius: 4px;
+    background-color: #CBC3E3;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.contact-info
+{
+    float: left;
+    width: 27%;
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 4px; 
+    margin-top: 2%; 
+    margin-bottom: 5%; 
+    margin-left: 15%;
+    box-sizing: border-box;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media only screen and (max-width: 1450px) {
+    .contact-info, .contact-form{
+        float: none;
+        width:auto;
+        margin: 10%;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    .contact-info{
+        float: left;
+        max-height: 30em;
+        min-height: 30em;
+    }
+    .contact-form{
+        max-height: 30em;
+        min-height: 30em;
+    }
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:#301934;
+}
